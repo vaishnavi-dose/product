@@ -10,6 +10,6 @@ public class PrimeNoTest
 	public void evaluateExpression() {
 		PrimeNo p= new PrimeNo();
 		boolean sol = p.isPrime(4);
-		assertEquals(true, sol);
+		assertEquals(false, sol);
 	}
 }

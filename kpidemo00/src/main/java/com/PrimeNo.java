@@ -8,8 +8,8 @@ public class PrimeNo
 			return false;
 		for (int i=4; i<n; i++)
 			if (n%i ==0)
-				return false;
-		return true;
+				return true;
+		return false;
 	}
 
 	public static void main(String[] args) 
